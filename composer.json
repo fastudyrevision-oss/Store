@@ -1,0 +1,24 @@
+{
+    "name": "art_stationery",
+    "description": "A web application for managing an art stationery store.",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "monolog/monolog": "^2.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/",
+            "Controllers\\": "controllers/"
+        }
+    },
+    "autoload-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
