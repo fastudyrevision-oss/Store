@@ -8,6 +8,10 @@
 .DS_Store
 Thumbs.db
 
+# Screenshots
+/screenshot/
+
+
 # IDE files
 .vscode/
 .idea/
@@ -15,3 +19,8 @@ Thumbs.db
 # OS generated files
 *.tmp
 *.bak
+
+# Python files
+*.py
+
+
