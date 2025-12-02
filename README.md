@@ -852,7 +852,7 @@ SOFTWARE.
 For questions, issues, or feature requests:
 
 - **GitHub Issues**: [Create an issue](https://github.com/your-repo/issues)
-- **Email**: support@artstationery.com
+- **Email**: fastudyrevision@gmail.com
 - **Documentation**: See `docs.md` for additional technical details
 
 ---
