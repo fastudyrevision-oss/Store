@@ -1,12 +1,7 @@
-<?php
-// Footer section of the web application
-?>
+<!-- Bootstrap Bundle (with Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<footer>
-    <div class="container">
-        <p>&copy; <?php echo date("Y"); ?> Art Stationery. All rights reserved.</p>
-    </div>
-</footer>
-
+<!-- Optional SB Admin scripts -->
+<script src="/art_stationery/assets/js/sb-admin.js"></script>
 </body>
 </html>

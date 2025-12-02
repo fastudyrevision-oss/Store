@@ -1,6 +1,6 @@
 <?php
 
-class Class {
+class ArtClass {
     private $classId;
     private $name;
 

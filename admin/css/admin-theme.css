@@ -1,0 +1,72 @@
+/* Smooth animations */
+* {
+  transition: all 0.25s ease-in-out;
+}
+
+/* Background gradient */
+body {
+  background: linear-gradient(135deg, #eef2f3 0%, #dfe9f3 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar a {
+  color: #333;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateX(4px);
+}
+
+/* Navbar logo */
+.navbar-brand {
+  font-weight: 700;
+  color: #007bff !important;
+}
+
+/* Card redesign */
+.card {
+  border: none;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* Button style */
+.btn-warning {
+  background: linear-gradient(135deg, #f7b733, #fc4a1a);
+  border: none;
+  box-shadow: 0 4px 10px rgba(252, 74, 26, 0.3);
+  font-weight: 600;
+}
+
+.btn-warning:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(252, 74, 26, 0.4);
+}
+
+/* Page fade-in */
+.container-fluid {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
